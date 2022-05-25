@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- header>img+nav>ul>li*5 -->
+    <header>
+        <img src="./index.html" alt="">
+        <nav>
+            <ul>
+                <li>
+                    <a href="./index2.html">Home</a>
+                </li>
+                <li>
+                    <a href="#blog">Blog</a>
+                </li>
+                <li>works</li>
+                <li><a href="./contact.html">Contacts</a></li>
+                <li>About us</li>
+            </ul>
+        </nav>
+        <h2>SPA = Single Page Application o Aplicación de una sola página</h2>
+    </header>
+    <!-- main>(section#home>p{lorem10}+p{lorem10})+(section#blog>p{lorem10}+p{lorem10})... -->
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia, blanditiis!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, similique.</p>
+            <br><br><br><br><br>
+        </section>
+        <section id="blog">
+            <h2>Blog</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, ad.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, repellat.</p>
+            <br><br><br><br><br>
+        </section>
+        <section id="works">
+            <h2>Works</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, autem?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, doloremque.</p>
+            <br><br><br><br><br>
+            <style>
+                table, th, td {
+                    border: 1px solid black;
+                }
+            </style>
+            <table style="margin: 5rem auto">
+                <thead>
+                    <!-- cabeza de la tabla -->
+                    <tr>
+                        <!-- table row (fila) -->
+                        <th>
+                            <!-- table head (columna) -->
+                            columna1
+                        </th>
+                        <th>
+                            columna2
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- cuerpo de la tabla -->
+                    <tr>
+                        <td>dato 1</td>
+                        <td>dato 2</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <!-- pie de la tabla -->
+                    <tr>
+                        <td><strong>total</strong></td>
+                        <td>$999</td>
+                    </tr>
+                </tfoot>
+            </table>
+
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, quaerat!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, commodi?</p>
+
+            <form action="">
+                <label for="name">Name: </label>
+                <input type="text" id="name">
+                <label for="email">Email: </label>
+                <input type="email" id="email">
+                <button type="submit">Send</button>
+            </form>
+
+            <br><br><br><br><br>
+        </section>
+        <section id="about">
+            <h2>About us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, commodi?</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, id?</p>
+            <br><br><br><br><br>
+        </section>
+    </main>
+</body>
+</html>
